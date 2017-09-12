@@ -1,0 +1,12 @@
+{
+    "name": "datto/database-analyzer",
+    "authors": [
+        {
+            "name": "Griffin Bishop",
+            "email": "grbishop@wpi.edu"
+        }
+    ],
+    "require": {
+        "spencer-mortensen/parallel-processor": "~1.0"
+    }
+}

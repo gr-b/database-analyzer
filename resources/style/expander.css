@@ -1,0 +1,26 @@
+.toggle input:first-child {
+    position: fixed;
+    left: -216em;
+}
+
+.toggle input:first-child:not(checked) ~ span {
+    display: none;
+}
+
+.toggle input:first-child:checked ~ span {
+    display: inline;
+}
+
+.toggle input:not(checked) ~ label:last-child:after {
+    content: "▼more";
+    font-weight: bold;
+}
+
+.toggle input:checked ~ label:last-child:after {
+    content: "▲less";
+    font-weight: bold;
+}
+
+.toggle label:last-child {
+    display: block;
+}

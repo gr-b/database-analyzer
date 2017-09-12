@@ -1,0 +1,11 @@
+/.idea/
+/cache/*
+composer.lock
+/testphp/coverage/
+/vendor/
+/.source
+*.swp
+
+
+
+

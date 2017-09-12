@@ -1,0 +1,37 @@
+dl.property {
+	padding: .75em 0 .75em 6.75em;
+	position: relative;
+}
+
+dl.property dt, dl.property dd {
+	line-height: 1.5em;
+	padding: 0 0 .75em 0;
+}
+
+dl.property dt {
+	color: #888;
+	display: block;
+	font-style: italic;
+	left: 0;
+	position: absolute;
+	text-align: right;
+	text-transform: lowercase;
+	width: 6em;
+}
+
+dl.property .api a {
+	text-decoration: none;
+}
+
+dl.property .type {
+	color: #aaa;
+}
+
+dl.property .type b {
+	color: #333;
+	font-weight: normal;
+}
+
+dl.property .type i {
+	font-style: normal;
+}
